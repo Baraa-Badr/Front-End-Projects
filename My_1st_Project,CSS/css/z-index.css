@@ -9,17 +9,20 @@ div {
 .first {
     background-color: red;
     top: 40px;
+    left: 50px;
     z-index: 4;
 }
 
 .second {
     background-color: green;
     top: 35px;
-    z-index: 1;
+    left: 45px;
+    z-index: 11;
 }
 
 .third {
     background-color: blue;
     top: 30px;
-    z-index: 2;
+    left: 40px;
+    z-index: 8;
 }
