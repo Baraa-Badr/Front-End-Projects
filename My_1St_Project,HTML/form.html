@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <title>study</title>
+        <meta name="descirption" content="for study my html course">
+  </head>  
+  <body>
+     <form action="mail send" method="get" novalidate target="_blank">
+        <div>
+          <label>USERNAME</label>
+          <input type="text" placeholder="username" name="user">
+        </div>
+        <br>
+        <div>
+            <label>PASSWORD</label>
+            <input type="password" required placeholder="your password" name="password form">
+        </div>
+        <br>
+        <div>
+            <label>EMAIL</label>
+            <input type="email" required placeholder="your email" value="mm@bembo.com" name="mail">
+        </div>
+        <br>
+        <div>
+            <label>color</label>
+            <input type="color" name="color">
+        </div>
+        <br>
+        <div>
+            <label>range</label>
+            <input type="range" name="range" min="o" max="100" step="20" value="60">
+        </div>
+        <br>
+        <div>
+            <label for="num">number</label>
+            <input id="num" type="number" name="number" min="10" max="100" step="10">
+        </div>
+        <hr\>
+        <div>
+            <input id="win" type="radio" name="os" value="windows" checked>
+            <label for="win">windows</label>
+        </div>
+        <div>
+            <input id="lin" type="radio" name="os" value="linux">
+            <label for="lin">linux</label>
+        </div>
+        <div>
+            <input id="Mac" type="radio" name="os" value="Mac">
+            <label for="Mac">Mac</label>
+        </div>
+        <hr/>
+        <div>
+            <input id="win1" type="checkbox" name="os" value="windows" checked>
+            <label for="win1">windows</label>
+        </div>
+        <div>
+            <input id="lin1" type="checkbox" name="os" value="linux">
+            <label for="lin1">linux</label>
+        </div>
+        <div>
+            <input id="Mac1" type="checkbox" name="os" value="Mac">
+            <label for="Mac1">Mac</label>
+        </div>
+        <br>
+        <hr/>
+        <div>
+            <label for="team">choose your team</label>
+            <select name="team" id="team" multiple>
+                <optgroup label="Egypt teams">
+                <option value="Mansoura">Mansoura team</option>
+                <option value="Portsaid">Portsaid team</option>
+                <option value="Alex">Alex team</option>
+                <option value="Cairo">Cairo team</option>
+            </optgroup>
+            <optgroup label="Arab teams">
+                <option value="Egypt" selected>Egypt team</option>
+                <option value="Quit">Quit team</option>
+                <option value="Emarat">Emarat team</option>
+            </optgroup>
+            </select>
+        </div>
+        <hr/>
+        <br>
+            <textarea name="subject" cols="40" rows="10" placeholder="write pragraph"></textarea>
+        <hr/>
+        <br>
+        <div>
+            <label>Upload</label>
+            <input type="file" />
+        </div>
+        <hr />
+        <br>
+        <div>
+            <label>Searsh</label>
+            <input type="search" />
+        </div>
+        <hr />
+        <br>
+        <div>
+            <label>link</label>
+            <input type="url" />
+        </div>
+        <hr />
+        <br>
+        <div>
+            <label>date</label>
+            <input type="date" />
+        </div>
+        <hr />
+        <br>
+        <div>
+            <label>time</label>
+            <input type="time" />
+        </div>
+        <hr />
+        <br>
+        <div>
+            <label>month</label>
+            <input type="month" />
+        </div>
+        <hr />
+        <br>
+        <input list="programming" name="prog">
+        <details>
+            <option value="Python">
+            <option value="C++">
+            <option value="C#">
+            <option value="PHP">
+            <option value="JavaScript">
+        </details>
+        <hr />
+        <br>
+        <input type="submit" value="save">
+        <input type="reset" value="reset">
+     </form>
+  </body>
+</html>

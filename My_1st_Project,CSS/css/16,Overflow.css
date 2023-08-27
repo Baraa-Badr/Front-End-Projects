@@ -1,0 +1,84 @@
+.Overflow {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: auto;
+}
+
+.Overflow-x {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.Overflow-y {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow-y: auto;
+}
+/* you can make it heddin or scrol only */
+
+/* 
+ Text Colour
+ background-color
+ color
+ text-shadow
+ Syntax => text-shadow: Horizontal Vertical Blur Color
+*/
+
+.text-color-and-shadow {
+    background-color: #e7e7e7;
+    text-shadow: 1px 1px 1px #937b7b;
+}
+
+.text-alignment {
+    background-color: #f9f9f9;
+    /* you can choose right or center or left */
+    text-align: center;
+}
+
+.text-direction {
+    background-color: #f8f8f8;
+    text-align: center;
+    /* "rtl"= right to left ,, "ltr"= left to right ,, you can change or choose 
+    your text direction */
+    direction: rtl;
+}
+
+.text-direction-AR {
+    background-color: #f8f8f8;
+    text-align: right;
+    /* "rtl"= right to left ,, "ltr"= left to right ,, you can change or choose 
+    your text direction */
+    direction: rtl;
+}
+
+.vertical-align {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.vertical-align img {
+    /* you can choose top or bottom or middle */
+    vertical-align: middle;
+}
+
+.decoration {
+    background-color: #eee;
+    /* you can choose overline or line-through or underline and you can choose none to remove this line */
+    text-decoration: line-through; 
+}
+
+.transform {
+    background-color: #937b7b;
+    /* you can choose a capital or uppercase or lowercase */
+    text-transform: capitalize;
+}

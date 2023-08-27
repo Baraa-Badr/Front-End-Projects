@@ -1,0 +1,41 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.first {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+    border: 4px solid rgb(10, 10, 151);
+}
+
+.first p {
+    border: 2px solid;
+    border-color: inherit;
+    padding: inherit;
+}
+
+.font-variant {
+    font-variant: small-caps;
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.to-test-mouse-corsor .grab {
+    cursor: grab;    
+}
+
+.to-test-mouse-corsor .move {
+    cursor: move;
+}
+
+.to-test-mouse-corsor .pointer {
+    cursor: pointer;
+}

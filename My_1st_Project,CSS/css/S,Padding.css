@@ -1,0 +1,36 @@
+.first {
+   background-color: #DDD;
+   /* Top Right Bottom Lift */
+   /* 10px 10px 10px 10px */
+   /* padding: 10px; */
+
+   /* Top Right Bottom Lift */
+   /* 10px 20px 10px 20px */
+   /* padding: 10px 20px; */
+    
+   /* Top Right Bottom Lift */
+   /* 10px 20px 15px 20px */
+   /* padding: 10px 20px 15; */
+
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+}
+
+.second {
+   background-color: #DDD;
+   padding: 0 10px;
+   width: 70%;
+   /* you can choose top,right,bottom,lift and the px or % or auto and you can write negative px*/
+   margin: auto;
+   /* border has a directions */
+   /* border-width: 10px;
+   border-color: red green yellow ;
+   border-style: solid; */
+   
+   /* You can combine all the properties in one code like next line */
+   border: 10px solid red;
+   /* we have outline code but this don't use because have a disadvantages نواقص */
+   outline: 10px solid red; /* border the best */
+}

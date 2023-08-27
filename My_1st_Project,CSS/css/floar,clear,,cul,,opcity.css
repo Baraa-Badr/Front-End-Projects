@@ -1,0 +1,53 @@
+/* 
+    -floar
+    -clear
+*/
+
+.parent {
+  background-color: red;
+  padding: 10px;
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.clear {
+    clear: both;
+}
+
+.cul .calculation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: calc(( 100% - 90px ) / 5 );
+    margin-left: 15px;
+}
+
+/*
+  content Width is 100%
+  6 Spaces 15px * 6 => 90px From Content Width
+  100% - 90px Available Space
+  5 Elements The width Is: ( 100% - 90px ) / 5 
+,,,,,,
+  also you can dowing that with  % only like next example
+*/
+
+.calculation-present {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: calc(95% / 5 );
+    margin-left: 1%;
+}
+
+.test for Opacity {
+    background-color: blueviolet;
+}

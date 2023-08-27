@@ -1,0 +1,83 @@
+/* to display none */
+
+.first {
+    background-color: aqua;
+    margin: 10px 0;
+    display: none;
+}
+
+/* to hidden */
+
+.second {
+    background-color: aqua;
+    margin: 10px 0;
+    visibility: hidden;
+}
+
+/* to grouping */
+
+.one {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.two {
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.three {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+
+.four {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+/* to use group use cumma "," */
+
+.one,
+.two,
+.three,
+.four {
+    padding: 15px;
+    margin: 12px 0;
+    background-color: #ededed;
+}
+
+/* to Nesting */
+
+div p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+.to-max-width {
+    background-color: #acccacac;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.to-min-width {
+    background-color: #acccacac;
+    min-width: 250px;
+    display: inline-block;
+}
+
+.to-width-in-general {
+    background-color: #acccacac;
+    width: 250px;
+    display: inline-block;
+}
+
+.to-fit-content {
+    padding: 10px;
+    background-color: #acccacac;
+    width: fit-content;
+}
+

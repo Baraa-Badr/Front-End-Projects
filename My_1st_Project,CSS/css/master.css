@@ -1,0 +1,29 @@
+/* to target class */
+.my-p {
+    color: yellowgreen;
+    font-size: 40px;
+}
+/* to target id */
+#special {
+    color: red;
+    font-size: 40px;
+}
+/*to target all pragraphs*/
+p {
+    color: green
+}
+
+/* ident-fire this is a id or class "الاكواد الي بتعرف عن طريقها" */
+
+div {
+    background-color: red; /* Color Name */
+    background-color: rgb(00 00 00 / 50%); /* Red Greeb Blue Alpha Channel */
+    background-color: #FF0000; /* Color Hex Code*/
+    background-image: url("../css/image/Screenshot_2023-08-13-02-42-49-18_1c337646f29875672b5a61192b9010f9.jpg");
+    background-repeat: no-repeat;  /* to repeat as افقي و عمودي use -y to عمودي and -x to افقي*/
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 1000px 2000px;
+}

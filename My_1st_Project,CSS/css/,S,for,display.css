@@ -1,0 +1,43 @@
+/* 
+  Block
+  
+  -Take Full Width If No Width
+  -Add Line Break
+  -Respect Padding, Margin, Width, Height
+  
+  Inline
+  
+  -Don't Respect Width, Height
+  -Respect Padding and Margin [ Just lift and right ]
+  -Don't Add Line Break
+  -Allow Elemnts Before and After It
+  
+  Inline-Block
+  
+  -Allow Elemnets Before and After It
+  -Respect Padding, Margin, Width, Height
+*/
+
+/* to test the block element  */
+div { 
+    background-color: #EEE;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+.for-Inline {
+    background-color: #EEE;
+    padding: 10px;
+    margin: 10px;
+}
+
+.for-Inline-Block {
+    background-color: #EEE;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+}

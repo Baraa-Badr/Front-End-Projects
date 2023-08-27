@@ -1,0 +1,39 @@
+.text-spacing {
+    background-color: rgb(179, 179, 179);
+    /* you can choose posetive or negative sush as -2px    or    2px to choose the space between letters */
+    letter-spacing: 2px;
+    /* to make a space befor letters */
+    text-indent: 40px;
+    /* you have word-spacing code to make somthing like but between words */
+}
+
+.line-height {
+    background-color:  rgb(179, 179, 179);
+    /* to make more height space between lines \\\ 1.6=160% */
+    line-height: 1.6;
+}
+
+.white-space {
+    background-color: #b4b4b4;
+    width: 300px;
+    /* to cut this line use nowrap and you can made it normal */
+    white-space: nowrap;
+}
+
+.word-break {
+    background-color: #b4b4b4;
+    width: 200px;
+    /* that's to make a break in words when the line is not enough and you can use it in "liks" */
+    /* you can choose break-word to break at word or break-all to break at anything */
+    word-break: break-word;
+}
+
+.text-overflow {
+    background-color: #ddd;
+    padding: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow make apoints when the width ended */
+    text-overflow: ellipsis;
+}
