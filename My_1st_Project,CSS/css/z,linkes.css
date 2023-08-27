@@ -8,12 +8,15 @@ div {
 
 .first {
     background-color: red;
+    top: 40px;
 }
 
 .second {
     background-color: green;
+    top: 35px;
 }
 
 .third {
     background-color: blue;
+    top: 30px;
 }
