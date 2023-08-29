@@ -1,0 +1,19 @@
+/* 
+    you can use the list-style to the point beffor the contant or the number beffor it 
+*/
+
+
+
+li {
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+ul {
+    /* you can choose the style of this icon and after it this position and after it you can choose a photo to be it */
+    list-style: lower-roman outside url();
+    /* also you can choose one of them in separately code */
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    list-style-image: url();
+}
