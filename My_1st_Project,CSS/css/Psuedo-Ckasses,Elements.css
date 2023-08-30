@@ -22,7 +22,7 @@ a:hover {
     color: red;
 }
 
-.ch:visited {
+.ch:checked {
     /* after you choose the chechbox it will be hidden */
     display: none;
 }
@@ -56,6 +56,10 @@ a:visited {
     color: white;
     font-size: 25px;
     font-weight: bold;
+}
+
+.two:empty {
+    border: 10px solid red;
 }
 
 /* you can make psuedo to generel like next code and 
