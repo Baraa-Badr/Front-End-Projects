@@ -1,0 +1,73 @@
+/* 
+    this project to learn Psuedo Classes
+*/
+
+.one {
+    background-color: red;
+    color: white;
+}
+
+.two {
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.ch:visited {
+    /* after you choose the chechbox it will be hidden */
+    display: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.in {
+    border: 2px solid black;
+}
+
+.in:focus {
+    border-color: rgb(99, 99, 99);
+    outline: none;
+}
+
+/* psuedo element you can do it after code css name use this :: */
+
+.test-pseudo-element-as-html span {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.test-pseudo-element-as-psuedo::first-letter {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* you can make psuedo to generel like next code and 
+this code about change the 
+select part control the items in this */
+
+::selection {
+    background-color: black;
+    color: yellow;
+}
+
+.test-pseudo-line-as-psuedo::first-line {
+    font-weight: bold;
+    color: green;
+}
