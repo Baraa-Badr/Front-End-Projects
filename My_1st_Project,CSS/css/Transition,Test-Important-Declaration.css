@@ -14,7 +14,7 @@ ease-in-out => slaw . natural . slaw
 linear => to equal value and equal spead
 */
 
-*{
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -41,8 +41,18 @@ linear => to equal value and equal spead
     height: 100px;
     transition: width 3s, height 1s;
 }
-
+ 
 .two:hover {
     width: 280px;
     height: 120px;
+}
+
+/*
+The Important Declaration and Use Cases 
+this is use to make control this cade and tell 
+the web this code is the controler code
+*/
+
+.Test-Important-Declaration {
+    background-color: #eee !important;
 }
