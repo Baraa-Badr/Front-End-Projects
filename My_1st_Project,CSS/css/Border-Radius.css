@@ -1,0 +1,9 @@
+ div {
+    width: 150px;
+    height: 150px;
+    background-color: #9e9e9e;
+    margin: 20px auto ;
+    /* you can choose any two direction but is this direction behind them and control a redius of both of them like the next example
+    border-top-left-radius: 9px 15px;  */
+    border-radius: 9px 20px;
+}

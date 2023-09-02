@@ -1,0 +1,39 @@
+/* 
+   Vendors-Prefixes
+
+   Chrome
+   Safari
+   FireFox
+   IE, Edge
+   Opera
+  
+   [1] New CSS Feature Appeared
+   [2] Browsers Tests The Feature In Version X
+   [3] Browsers Add Prefix To Give Devolpers The Ability To Use It
+   [4] The Feature Is Fully Supported In Version Y, No Need For Prefix
+   
+   -webkit- => Chrome, Safari, New Opera Version 
+   -moz- => FireFox
+   -ms- => IE, Edge ' microsoft'
+   -o- => Old Version of Opera
+   
+   you can check your element if support in which browser in web called "can i used"
+   
+*/
+
+.class {
+    /* -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; */
+    border-radius: 10px;
+}
+
+/*
+   [1] Most of Users Are Using Modern Browsers
+   [2] VS Code Addon To Add The Prefix  
+   "write searsh about 'Prefix' and select the css-auto-prefix" 
+   "or in the thing like a cubes مربعات الي على الشمال تحت الملفات والبحث
+   [3] Task Runner
+*/ 
+ 

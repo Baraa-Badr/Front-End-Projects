@@ -1,0 +1,12 @@
+/* 
+  H-Shadow | V-Shadow | Blur | Spread | color | Inset
+*/
+
+div {
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    width: 300px;
+    /*  you can make alot of shadows on shadows and you can make it inset"like inside the elment" or outset "out side the element"  */
+    box-shadow: 0 0 8px 0 #8c00ff3d inset;
+}
