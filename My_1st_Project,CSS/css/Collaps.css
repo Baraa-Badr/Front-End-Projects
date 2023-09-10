@@ -24,20 +24,28 @@
 
 .one {
     background-color: #ddd;
+    float: left;
+    width: 50%;
+    height: 100%;
 }
 
 .two {
     background-color: #aaa;
+    float: left;
+    width: 50%;
+    height: 100%;
 }
 
 .down {
     background-color: green;
     color: white;
-    height: 100px;
+    height: 90px;
+    margin-top: 20px;
 }
 
 .up {
     background-color: green;
     color: white;
-    height: 100px;
+    height: 90px;
+    margin-bottom: 20px;
 }
