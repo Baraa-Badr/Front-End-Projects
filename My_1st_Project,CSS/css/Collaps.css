@@ -6,7 +6,7 @@
  [4] Nesting Does Not Prevent Collapsing
  */
 
-.parent {
+.Parent {
     overflow: hidden;
     margin: auto;
     width: 400px;
@@ -15,8 +15,8 @@
     background-color: #eee;
 }
 
-.parent .one,
-.parent .two {
+.Parent .one,
+.Parent .two {
     float: left;
     width: 50%;
     height: 100%;
@@ -36,16 +36,16 @@
     height: 100%;
 }
 
-.down {
-    background-color: green;
-    color: white;
-    height: 90px;
-    margin-top: 20px;
-}
-
 .up {
     background-color: green;
     color: white;
     height: 90px;
     margin-bottom: 20px;
+}
+
+.down {
+    background-color: rgb(199, 0, 0);
+    color: white;
+    height: 90px;
+    margin-top: 20px;
 }
