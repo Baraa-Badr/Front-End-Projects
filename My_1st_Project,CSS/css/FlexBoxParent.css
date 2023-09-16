@@ -2,7 +2,7 @@
    Flexible Box
    For Parent
    - display: flex => To Start Flexible Box
-   - flex-direction: raw => Defaul Value
+   - flex-direction: row => Defaul Value
    - flex-wrap: nowrap => Defaul Value
    - flex-flow: [flex-direcion] + [flex-wrap]  
 */
@@ -16,13 +16,16 @@
     width: 600px;
     padding: 20px;
     margin: 20px auto;
-    display: flex ;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap-reverse;
 }
 
 .flex div {
     background-color: #f00;
     color: white;
-    width: 25px;
+    width: 25%;
     text-align: center;
     padding: 20px;
 }
@@ -39,5 +42,7 @@
     background-color: #f00;
     color: white;
     float: left;
-
+    width: 25%;
+    text-align: center;
+    padding: 20px;
 }
