@@ -4,7 +4,9 @@
    - display: flex => To Start Flexible Box
    - flex-direction: row => Defaul Value
    - flex-wrap: nowrap => Defaul Value
-   - flex-flow: [flex-direcion] + [flex-wrap]  
+   - flex-flow: [flex-direcion] + [flex-wrap] 
+   ---
+   justify-content: flex-start => Default Value
 */
 
 * {
@@ -18,16 +20,22 @@
     margin: 20px auto;
     display: flex;
     /* flex-direction: row;
-    flex-wrap: wrap; */
-    flex-flow: row wrap-reverse;
+    flex-wrap: wrap; */ 
+    /* flex-flow: direction the.wrap */
+    flex-flow: row wrap;
+    /*
+    justify-content: space-between; /* this to make space between the elements
+    justify-content: space-around; /* this to make space around the elements
+    */
+    justify-content: space-evenly; /*this to make both of them in same time*/
 }
 
 .flex div {
     background-color: #f00;
     color: white;
-    width: 25%;
+    width: calc(94% / 3);
     text-align: center;
-    padding: 20px;
+    padding: 20px
 }
 
 .float {
@@ -42,7 +50,9 @@
     background-color: #f00;
     color: white;
     float: left;
-    width: 25%;
+    width: calc(94% / 3);
     text-align: center;
     padding: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
