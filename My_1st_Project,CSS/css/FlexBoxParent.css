@@ -16,6 +16,7 @@
    - flex-basis: auto => Default Value
    - flex: [Flex Grow] [Flex Shrink] [Flex Basis] 0 1 auto 
    you can make it inline-flex in display to make any thing behind it 
+   align-self: auto => Default Value "this to sterch this element only withot any control to onther elements
    */
 
 * {
@@ -88,7 +89,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-    display: inline-block;
 }
