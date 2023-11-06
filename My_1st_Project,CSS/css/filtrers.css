@@ -1,0 +1,12 @@
+/*
+  Filters
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    transition: 0.3s;
+    filter: grayscale();
+}
