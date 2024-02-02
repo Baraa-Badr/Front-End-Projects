@@ -1,9 +1,0 @@
-/* 
-    Grid
-    Parent 
-    - display: grid | inline-grid
-    - grid-template-columns => [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat(), Mix]  
-    - grid-template-rows => [Number Of Rows Hieght In] => [Px, %, Auto, Fraction, Repeat(), Mix]  
-    _ gap: [Row Gap] [Column Gap]
-
-*/

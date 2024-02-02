@@ -1,0 +1,48 @@
+/* 
+    Grid
+    Parent 
+    - display: grid | inline-grid
+    - grid-template-columns => [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat(), Mix]  
+    - grid-template-rows => [Number Of Rows Hieght In] => [Px, %, Auto, Fraction, Repeat(), Mix]  
+    - gap: [Row Gap] [Column Gap]
+    - justify-content
+    - align-content
+*/
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.page {
+    display: grid;
+    height: 100vh;
+    background-color: #eee;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas:
+    "logo logo nav nav nav nav"
+    "cont cont cont cont cont side"
+    "foot foot foot foot foot foot";
+}
+
+h2 {
+    grid-area: logo;
+    background-color: #b9b9b9;
+    color: black;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #949494;
+    color: black;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #615f5f;
+    color: black;
+}
