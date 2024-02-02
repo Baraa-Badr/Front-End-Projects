@@ -41,8 +41,8 @@ nav {
     color: black;
 }
 
-nav {
-    grid-area: nav;
+footer {
+    grid-area: foot;
     background-color: #615f5f;
     color: black;
 }
